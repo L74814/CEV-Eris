@@ -82249,12 +82249,6 @@
 /obj/machinery/atmospherics/valve/digital/open,
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/engineering/propulsion/right)
-"dOc" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/simulated/open,
-/area/eris/hallway/side/section3port)
 "dOd" = (
 /obj/machinery/door/window/southleft,
 /obj/structure/table/standard{
@@ -101854,6 +101848,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood,
 /area/eris/command/merchant)
+"lsX" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/eris/hallway/side/section3port)
 "ltJ" = (
 /obj/machinery/holomap{
 	dir = 4;
@@ -202108,8 +202109,8 @@ dFy
 cmE
 dGn
 dGU
-dJp
-dOc
+lsX
+bVU
 cxA
 cxA
 cxA
@@ -202310,8 +202311,8 @@ dFy
 cmE
 dGn
 dGU
-dJp
-dOc
+lsX
+bVU
 cxA
 cxA
 cxA
@@ -202513,7 +202514,7 @@ cmE
 dGn
 dGU
 dJp
-dOc
+bVU
 cxA
 cxA
 cxA
@@ -202715,7 +202716,7 @@ bVU
 dGn
 dGU
 dJp
-dOc
+bVU
 cxA
 cxA
 cxA
