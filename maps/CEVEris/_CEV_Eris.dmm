@@ -100072,6 +100072,10 @@
 "eIo" = (
 /turf/simulated/wall,
 /area/eris/engineering/propulsion/right)
+"eIQ" = (
+/obj/machinery/door/airlock,
+/turf/simulated/floor/tiled/white,
+/area/eris/crew_quarters/kitchen)
 "eJd" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/yellow,
 /turf/simulated/floor/tiled/steel/techfloor,
@@ -100405,6 +100409,14 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4starboard)
+"eRI" = (
+/obj/structure/table/woodentable,
+/obj/item/device/lighting/toggleable/lamp{
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/projectile/shotgun/pump,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "eWR" = (
 /obj/structure/table/rack,
 /obj/item/weapon/contraband/poster/placed{
@@ -101127,6 +101139,10 @@
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/storage)
+"itC" = (
+/obj/machinery/vending/sovietsoda,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "itK" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/light{
@@ -101223,6 +101239,12 @@
 "iFm" = (
 /turf/simulated/wall,
 /area/eris/maintenance/section3deck4central)
+"iFo" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "iIc" = (
 /obj/effect/shuttle_landmark/merc/sec3east5,
 /turf/space,
@@ -101783,6 +101805,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood,
 /area/eris/command/merchant)
+"lnV" = (
+/obj/structure/closet/chefcloset,
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
 "lpX" = (
 /turf/simulated/wall,
 /area/eris/crew_quarters/barbackroom)
@@ -101891,7 +101917,11 @@
 /area/space)
 "lLP" = (
 /obj/structure/flora/pottedplant/random,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
+"lMZ" = (
+/obj/machinery/door/airlock,
+/turf/simulated/floor/wood,
 /area/eris/crew_quarters/kitchen)
 "lPH" = (
 /obj/structure/table/bar_special,
@@ -102468,6 +102498,9 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/quartermaster/storage)
+"oeB" = (
+/turf/simulated/wall,
+/area/eris/neotheology/chapel)
 "ofp" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -102641,6 +102674,10 @@
 /obj/item/weapon/gun/projectile/automatic/lmg/tk,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/security/warden)
+"oEX" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "oGG" = (
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
@@ -102795,6 +102832,9 @@
 "peB" = (
 /turf/simulated/wall/r_wall,
 /area/eris/engineering/long_range_scanner)
+"pit" = (
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "pjs" = (
 /obj/machinery/button/remote/blast_door{
 	name = "Guild Disks Showcase";
@@ -103027,6 +103067,10 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/quartermaster/storage)
+"qkE" = (
+/obj/structure/closet/gmcloset,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "qkR" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/atmos{
@@ -103317,6 +103361,11 @@
 /obj/structure/cable/yellow,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
+"rKy" = (
+/obj/item/weapon/bedsheet/blue,
+/obj/structure/bed,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "rMI" = (
 /obj/structure/cyberplant,
 /turf/simulated/open,
@@ -103750,6 +103799,9 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/merchant)
+"tBK" = (
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "tBT" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -104062,6 +104114,10 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/engine_room)
+"uZG" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/tiled/white,
+/area/eris/crew_quarters/kitchen)
 "vad" = (
 /obj/structure/railing{
 	dir = 1
@@ -104558,6 +104614,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/eris/medical/chemstor)
+"wQd" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "wQU" = (
 /obj/structure/railing{
 	dir = 8
@@ -104724,6 +104784,9 @@
 /obj/structure/sign/faction/astersguild,
 /turf/simulated/wall,
 /area/eris/hallway/side/section3starboard)
+"xDR" = (
+/turf/simulated/wall,
+/area/eris/crew_quarters/kitchen)
 "xHM" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -200564,7 +200627,7 @@ cao
 tQe
 cAS
 xsi
-gbx
+xsi
 xsi
 aae
 aaa
@@ -200963,11 +201026,11 @@ hFx
 dUH
 dUH
 fWh
-dUH
-dUH
+tBK
+tBK
 lLP
 cAS
-xsi
+gbx
 xsi
 xsi
 aae
@@ -201163,15 +201226,15 @@ cws
 cmE
 qdk
 dUH
-dUH
+lnV
 cmE
-dUH
-dUH
-xsi
+tBK
+tBK
+tQe
 cAS
-xsi
-xsi
-xsi
+uZG
+uZG
+tQe
 cAS
 aaa
 abF
@@ -201367,13 +201430,13 @@ cmE
 cmE
 cmE
 cmE
-dUH
-dUH
-xsi
-cAS
-xsi
-xsi
-xsi
+tBK
+tBK
+tQe
+lMZ
+tQe
+tQe
+tQe
 cAS
 abF
 abF
@@ -201567,15 +201630,15 @@ cmQ
 cmE
 qdk
 dUH
-dUH
+lnV
 cmE
-dUH
-dUH
-xsi
+tBK
+tBK
+tQe
 cAS
-xsi
-xsi
-cAS
+tQe
+tQe
+tQe
 cAS
 abF
 abF
@@ -201771,14 +201834,14 @@ hFx
 dUH
 dUH
 fWh
-dUH
-dUH
-xsi
+tBK
+tBK
+tQe
 cAS
-xsi
-xsi
+xDR
+xDR
+eIQ
 cAS
-sJQ
 abF
 cwU
 cwU
@@ -201973,14 +202036,14 @@ cmE
 cmE
 cmE
 cmE
-cmE
-cmE
+oeB
+oeB
 fsA
 cAS
-xsi
-xsi
+iFo
+pit
+pit
 cAS
-sJQ
 abF
 cwU
 cBO
@@ -202179,10 +202242,10 @@ hwC
 qPY
 gXf
 cAS
-xsi
-xsi
+eRI
+pit
+pit
 cAS
-sJQ
 abF
 cwU
 cos
@@ -202368,9 +202431,9 @@ dGn
 dGU
 lsX
 bVU
-mUq
-kqD
 wDp
+kqD
+mUq
 ctD
 anJ
 nvQ
@@ -202381,10 +202444,10 @@ qft
 qft
 gXf
 cAS
-xsi
-xsi
+rKy
+pit
+qkE
 cAS
-sJQ
 abF
 cwU
 cos
@@ -202570,23 +202633,23 @@ dGn
 dGU
 lsX
 bVU
+cxA
+cxA
 mUq
-cxA
-cxA
 ctD
 chE
 anJ
 xsG
 qft
 qft
-qft
+vNJ
 qft
 rGy
 cAS
 cAS
 cAS
 cAS
-sJQ
+cAS
 abF
 cwU
 cBO
@@ -205204,9 +205267,9 @@ jZW
 jZW
 jZW
 tuM
-cil
-cil
-cil
+oEX
+wQd
+itC
 chY
 cpm
 cpm
