@@ -99670,6 +99670,10 @@
 	},
 /turf/simulated/open,
 /area/eris/quartermaster/misc)
+"eGV" = (
+/obj/structure/bed/chair/custom/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "eHb" = (
 /obj/machinery/firealarm{
 	pixel_y = 28
@@ -100389,16 +100393,6 @@
 /obj/spawner/booze,
 /turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/bar)
-"grf" = (
-/obj/structure/table/bar_special,
-/obj/item/weapon/reagent_containers/food/condiment/peppermill{
-	pixel_x = 3
-	},
-/obj/item/weapon/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3
-	},
-/turf/simulated/floor/tiled/steel/bar_light,
-/area/eris/maintenance/section3deck4port)
 "gsO" = (
 /obj/machinery/door/airlock/glass_medical{
 	id_tag = null;
@@ -100586,6 +100580,10 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck3starboard)
+"hhx" = (
+/obj/structure/table/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/maintenance/section3deck4port)
 "hjI" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -100835,6 +100833,12 @@
 /obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/storage)
+"itO" = (
+/obj/machinery/door/airlock{
+	name = "Private Bar Room"
+	},
+/turf/simulated/floor/plating,
+/area/eris/crew_quarters/bar)
 "ivC" = (
 /obj/machinery/atmospherics/valve/digital{
 	dir = 4;
@@ -101494,6 +101498,16 @@
 "lpX" = (
 /turf/simulated/wall,
 /area/eris/crew_quarters/barbackroom)
+"lqu" = (
+/obj/structure/table/bar_special,
+/obj/item/weapon/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3
+	},
+/obj/item/weapon/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -3
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "lsX" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -101773,6 +101787,10 @@
 /obj/structure/closet/crate/radiation,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/quartermaster/hangarsupply)
+"mBX" = (
+/obj/structure/table/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "mCf" = (
 /obj/machinery/access_button{
 	command = "cycle_exterior";
@@ -103004,6 +103022,12 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3starboard)
+"rxk" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "rBd" = (
 /obj/machinery/duct,
 /turf/simulated/floor/wood,
@@ -103777,12 +103801,6 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/medical/chemstor)
-"uZs" = (
-/obj/machinery/door/airlock{
-	name = "Private Bar Room"
-	},
-/turf/space,
-/area/eris/crew_quarters/bar)
 "uZw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 6
@@ -104199,6 +104217,12 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
+"wtA" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "wuz" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -104218,7 +104242,9 @@
 "wwB" = (
 /obj/machinery/button/windowtint{
 	id = "barroom1";
-	name = "Window uhhh help pls";
+	name = "Better Name Pls";
+	pixel_x = 10;
+	pixel_y = 28;
 	tag = "barroom1"
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -162122,7 +162148,7 @@ dnb
 bWh
 bWh
 bUG
-grf
+vGB
 aaa
 bqj
 bsQ
@@ -162725,9 +162751,9 @@ csD
 csD
 aqa
 wwB
-cil
-cil
-iNs
+eGV
+mBX
+hhx
 bUG
 aaa
 bqj
@@ -162927,9 +162953,9 @@ iNs
 iNs
 ksj
 cil
-cil
-cil
-cil
+eGV
+mBX
+lqu
 anJ
 aaa
 bqj
@@ -163130,8 +163156,8 @@ iNs
 ksj
 qdI
 cil
-cil
-cil
+rxk
+rxk
 anJ
 aaa
 bqj
@@ -163329,7 +163355,7 @@ iNs
 iNs
 iNs
 iNs
-ksj
+itO
 cil
 cil
 cil
@@ -163532,7 +163558,7 @@ cil
 cil
 cil
 ksj
-uZs
+ksj
 ksj
 anJ
 anJ
@@ -164337,10 +164363,10 @@ cil
 cil
 cil
 cil
-cil
-cil
-cil
-cil
+eGV
+lqu
+mBX
+wtA
 cil
 cil
 cil
@@ -164539,10 +164565,10 @@ cil
 cil
 cil
 cil
-cil
-cil
-cil
-cil
+eGV
+mBX
+mBX
+wtA
 cil
 anJ
 anJ
