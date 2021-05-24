@@ -100943,6 +100943,9 @@
 /obj/item/device/radio/beacon,
 /turf/simulated/floor/tiled/steel/panels,
 /area/eris/engineering/post)
+"iNs" = (
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/maintenance/section3deck4port)
 "iNx" = (
 /obj/spawner/oddities/low_chance,
 /turf/simulated/floor/tiled/techmaint_cargo,
@@ -101279,6 +101282,13 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3starboard)
+"ksj" = (
+/obj/effect/window_lwall_spawn/reinforced/polarized{
+	id = "barroom1";
+	name = "Private Windows"
+	},
+/turf/simulated/floor/plating,
+/area/eris/crew_quarters/bar)
 "ksq" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/tiled/cafe,
@@ -102700,6 +102710,14 @@
 /obj/item/weapon/bedsheet/green,
 /turf/simulated/floor/tiled/white,
 /area/eris/neotheology/chapel)
+"qdI" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "qdT" = (
 /obj/structure/multiz/stairs/enter,
 /turf/simulated/floor/tiled/steel,
@@ -103759,6 +103777,12 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/medical/chemstor)
+"uZs" = (
+/obj/machinery/door/airlock{
+	name = "Private Bar Room"
+	},
+/turf/space,
+/area/eris/crew_quarters/bar)
 "uZw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 6
@@ -104190,6 +104214,14 @@
 /obj/structure/table/bar_special,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
+"wwB" = (
+/obj/machinery/button/windowtint{
+	id = "barroom1";
+	name = "Window uhhh help pls";
+	tag = "barroom1"
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/crew_quarters/bar)
 "wwL" = (
 /obj/structure/railing{
@@ -162683,8 +162715,8 @@ cDy
 cFO
 cJT
 bBE
-kji
-kji
+cil
+cil
 aqa
 csD
 csD
@@ -162692,10 +162724,10 @@ csD
 csD
 csD
 aqa
-kji
-kji
-kji
-vGB
+wwB
+cil
+cil
+iNs
 bUG
 aaa
 bqj
@@ -162885,19 +162917,19 @@ cDP
 anJ
 anJ
 anJ
-kji
-kji
-kji
-vGB
-vGB
-vGB
-vGB
-vGB
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+iNs
+iNs
+iNs
+iNs
+iNs
+ksj
+cil
+cil
+cil
+cil
 anJ
 aaa
 bqj
@@ -163085,21 +163117,21 @@ cxJ
 cBs
 cDc
 anJ
-kji
-kji
-kji
-kji
-kji
-vGB
-vGB
-vGB
-vGB
-vGB
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+iNs
+iNs
+iNs
+iNs
+iNs
+ksj
+qdI
+cil
+cil
+cil
 anJ
 aaa
 bqj
@@ -163287,21 +163319,21 @@ cyf
 anJ
 anJ
 anJ
-kji
-kji
-kji
-kji
-kji
-vGB
-vGB
-vGB
-vGB
-vGB
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+iNs
+iNs
+iNs
+iNs
+iNs
+ksj
+cil
+cil
+cil
+cil
 anJ
 abF
 bqj
@@ -163489,19 +163521,19 @@ czJ
 anJ
 chE
 anJ
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+ksj
+uZs
+ksj
 anJ
 anJ
 anJ
@@ -163691,19 +163723,19 @@ cAK
 anJ
 chF
 anJ
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
 eav
 epe
 anJ
@@ -163893,19 +163925,19 @@ cru
 anJ
 oNR
 auz
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
 anJ
 iIJ
 anJ
@@ -164095,19 +164127,19 @@ cyX
 anJ
 anJ
 anJ
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
 anJ
 cil
 anJ
@@ -164297,19 +164329,19 @@ cyX
 cBN
 csN
 anJ
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
 cil
 cil
 anJ
@@ -164499,19 +164531,19 @@ cyX
 cBw
 csN
 anJ
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
-kji
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
+cil
 anJ
 anJ
 anJ
