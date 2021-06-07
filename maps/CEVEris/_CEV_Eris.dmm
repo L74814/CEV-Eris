@@ -6632,9 +6632,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/eris/rnd/podbay)
 "apN" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -7068,6 +7065,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/eschangarb)
 "aqJ" = (
@@ -7497,6 +7495,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/eschangarb)
 "arz" = (
@@ -7962,6 +7961,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/hologram/holopad,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/eschangarb)
 "asA" = (
@@ -8329,6 +8329,9 @@
 	},
 /obj/machinery/firealarm{
 	pixel_y = 28
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
 /area/eris/crew_quarters/bar)
@@ -10304,6 +10307,13 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/disposal)
+"azl" = (
+/obj/structure/lattice,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/space,
+/area/space)
 "azm" = (
 /obj/machinery/sparker{
 	id = "Incinerator";
@@ -28649,12 +28659,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
-"bqy" = (
-/obj/machinery/firealarm{
-	pixel_y = 28
-	},
-/turf/simulated/floor/tiled/steel/monofloor,
-/area/eris/quartermaster/hangarsupply)
 "bqz" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -28662,12 +28666,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/command/courtroom)
-"bqA" = (
-/obj/machinery/alarm{
-	pixel_y = 26
-	},
-/turf/simulated/floor/tiled/steel/monofloor,
-/area/eris/quartermaster/hangarsupply)
 "bqB" = (
 /obj/structure/table/standard,
 /obj/spawner/booze/low_chance,
@@ -40896,6 +40894,25 @@
 "bUG" = (
 /turf/simulated/wall/r_wall,
 /area/eris/maintenance/section3deck4port)
+"bUH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/spawner/traps/wire_splicing/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section3deck4port)
 "bUJ" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/blue,
@@ -44254,6 +44271,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/red,
+/obj/spawner/mob/roaches/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck3port)
 "ceo" = (
@@ -44513,6 +44531,7 @@
 /area/eris/maintenance/section3deck3port)
 "ceR" = (
 /obj/machinery/light,
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
 "ceS" = (
@@ -48354,6 +48373,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/neotheology/chapel)
+"cpt" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 25
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "cpu" = (
 /obj/structure/multiz/stairs/enter/bottom{
 	dir = 8
@@ -73971,6 +73997,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/main/section3)
 "dDp" = (
@@ -80570,6 +80601,10 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
+"dTJ" = (
+/obj/structure/closet/crate,
+/turf/simulated/floor/tiled/dark/golden,
+/area/eris/neotheology/bioreactor)
 "dTK" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -80898,6 +80933,12 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/crew_quarters/hydroponics)
 "dUH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/eris/neotheology/chapel)
 "dUJ" = (
@@ -82249,31 +82290,6 @@
 /obj/item/weapon/tool/crowbar,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/crew_quarters/sleep/cryo)
-"dYa" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/steel,
-/area/eris/hallway/main/section3)
-"dYb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/steel/monofloor{
-	dir = 4
-	},
-/area/eris/hallway/main/section3)
 "dYc" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -85889,6 +85905,9 @@
 /obj/structure/sign/sec3{
 	pixel_x = -32
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/main/section3)
 "ehU" = (
@@ -89225,12 +89244,6 @@
 	},
 /turf/space,
 /area/shuttle/research/station)
-"equ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/steel,
-/area/eris/hallway/main/section3)
 "eqv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/item/weapon/inflatable_dispenser{
@@ -95958,6 +95971,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
+"eOg" = (
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "eOl" = (
 /obj/structure/catwalk,
 /obj/spawner/junk/low_chance,
@@ -95999,6 +96016,10 @@
 	},
 /turf/simulated/open,
 /area/eris/engineering/gravity_generator)
+"eQF" = (
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/kitchen)
 "eQG" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -96135,6 +96156,20 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/maintenance/junk)
+"ffA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
 "ffR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -96146,6 +96181,10 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/quartermaster/storage)
+"fhi" = (
+/obj/spawner/pack/machine,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "fhw" = (
 /obj/machinery/door/airlock/glass_mining{
 	name = "Cargo Bay";
@@ -96224,6 +96263,10 @@
 /obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/grass,
 /area/eris/crew_quarters/hydroponics/garden)
+"fpP" = (
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck3port)
 "fsn" = (
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/structure/cable/yellow{
@@ -96243,6 +96286,20 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/neotheology/storage)
+"fwc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
+"fyv" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
 "fzU" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
 	dir = 4
@@ -96256,6 +96313,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/quartermaster/storage)
+"fAI" = (
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "fBx" = (
 /obj/machinery/holomap{
 	dir = 4;
@@ -96306,6 +96367,12 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/quartermaster/hangarsupply)
+"fGV" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/plating,
+/area/eris/hallway/side/eschangarb)
 "fHb" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -96372,6 +96439,12 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/bioreactor)
+"fOp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "fQv" = (
 /obj/item/modular_computer/console/preset/civilian/professional,
 /turf/simulated/floor/tiled/steel/danger,
@@ -96401,6 +96474,8 @@
 /area/eris/quartermaster/hangarsupply)
 "fWh" = (
 /obj/machinery/door/airlock,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/eris/neotheology/chapel)
 "fXi" = (
@@ -96410,6 +96485,10 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/office)
+"fYe" = (
+/obj/spawner/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck3port)
 "fZK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -96456,6 +96535,16 @@
 /obj/machinery/camera/network/engineering,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
+"gaq" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "gba" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -96509,6 +96598,10 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/quartermaster/hangarsupply)
+"gkR" = (
+/obj/spawner/pack/machine,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck3port)
 "glK" = (
 /obj/landmark/join/start/hydro,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -96616,6 +96709,12 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/command/merchant)
+"guH" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "gxo" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/industrial/warning{
@@ -96645,6 +96744,13 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
+"gzE" = (
+/obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/hallway/main/section3)
 "gAl" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -96700,6 +96806,13 @@
 /obj/item/device/radio/intercom,
 /turf/simulated/wall/r_wall,
 /area/eris/maintenance/section3deck5port)
+"gIh" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/space,
+/area/space)
 "gIl" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/steel/danger,
@@ -96785,6 +96898,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/neotheology/chapel)
+"gPo" = (
+/obj/spawner/pack/machine,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/office)
 "gPt" = (
 /obj/machinery/power/nt_obelisk,
 /obj/machinery/light{
@@ -96842,6 +96959,11 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/neotheology/chapel)
+"gUx" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/smartfridge/drinks,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "gVb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -96858,6 +96980,7 @@
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
 "gXf" = (
+/obj/machinery/vending/dinnerware,
 /turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/kitchen)
 "gXX" = (
@@ -96874,6 +96997,15 @@
 /obj/machinery/door/airlock/gold,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapelritualroom)
+"gYV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "het" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -96936,10 +97068,6 @@
 /obj/machinery/power/nt_obelisk,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
-"hmZ" = (
-/obj/machinery/vending/dinnerware,
-/turf/simulated/floor/tiled/cafe,
-/area/eris/crew_quarters/bar)
 "hot" = (
 /obj/structure/table/standard,
 /obj/item/weapon/storage/toolbox/mechanical,
@@ -97000,6 +97128,11 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"huI" = (
+/obj/structure/bed/chair,
+/obj/landmark/join/start/assistant,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/bioreactor)
 "hwC" = (
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/cafe,
@@ -97050,8 +97183,24 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/spawner/traps/wire_splicing/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
+"hzg" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/hallway/main/section3)
 "hzU" = (
 /obj/structure/multiz/ladder/up,
 /turf/simulated/floor/tiled/techmaint,
@@ -97092,6 +97241,19 @@
 "hCC" = (
 /turf/simulated/wall,
 /area/eris/neotheology/office)
+"hDF" = (
+/obj/machinery/light/small,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
+"hEv" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "hFx" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -97131,6 +97293,16 @@
 	},
 /turf/simulated/open,
 /area/eris/crew_quarters/janitor)
+"hJu" = (
+/obj/structure/table/bar_special,
+/obj/item/weapon/book/manual/barman_recipes,
+/obj/item/weapon/flame/lighter/zippo,
+/obj/item/device/eftpos,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "hJB" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/tiled/white/techfloor,
@@ -97195,6 +97367,18 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/quartermaster/storage)
+"hSi" = (
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "West APC";
+	pixel_x = -28
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "hTE" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -97224,6 +97408,20 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/merchant)
+"hZc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
+"hZx" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 28
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "hZB" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -97253,6 +97451,10 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
+"idg" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "idh" = (
 /obj/structure/catwalk,
 /obj/structure/sign/department/scanner{
@@ -97359,11 +97561,22 @@
 	dir = 1;
 	pixel_y = -22
 	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
 "iop" = (
 /obj/structure/sign/department/bar,
 /turf/simulated/wall,
+/area/eris/crew_quarters/bar)
+"iqg" = (
+/obj/item/weapon/stool/custom/bar_special,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/crew_quarters/bar)
 "iqV" = (
 /obj/structure/disposalpipe/segment{
@@ -97432,6 +97645,19 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
+"ivc" = (
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/office)
+"ivx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "ivC" = (
 /obj/machinery/atmospherics/valve/digital{
 	dir = 4;
@@ -97506,6 +97732,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/neotheology/chapelritualroom)
+"izU" = (
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller,
+/turf/simulated/wall/r_wall,
+/area/space)
 "iAi" = (
 /obj/item/weapon/stool/custom/bar_special,
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -97552,12 +97782,37 @@
 	},
 /turf/space,
 /area/space)
+"iEQ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "iFm" = (
 /turf/simulated/wall,
 /area/eris/maintenance/section3deck4central)
 "iFo" = (
 /obj/structure/bed/chair/wood{
 	dir = 4
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/eris/crew_quarters/kitchen)
@@ -97610,6 +97865,14 @@
 /obj/machinery/vending/hydronutrients,
 /turf/simulated/floor/grass,
 /area/eris/crew_quarters/hydroponics/garden)
+"iSG" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "East APC";
+	pixel_x = 28
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "iSH" = (
 /obj/structure/table/bar_special,
 /obj/machinery/chemical_dispenser/soda,
@@ -97723,12 +97986,39 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapelritualroom)
+"jjP" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/golden,
+/area/eris/crew_quarters/hydroponics/garden)
 "jlN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section3deck3starboard)
+"jne" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
+"joY" = (
+/obj/structure/table/standard,
+/obj/spawner/booze/low_chance,
+/obj/spawner/pack/tech_loot,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/bioreactor)
 "jpo" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled/steel/bar_dance,
@@ -97736,6 +98026,10 @@
 "jpL" = (
 /turf/simulated/floor/plating/under,
 /area/eris/neotheology/storage)
+"jpP" = (
+/obj/structure/multiz/ladder,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/chapel)
 "jrB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white/golden,
@@ -97760,6 +98054,10 @@
 	},
 /turf/simulated/floor/tiled/steel/panels,
 /area/eris/engineering/post)
+"jun" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck4port)
 "juV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -97793,6 +98091,26 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/neotheology/storage)
+"jxK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
+"jzs" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "jzY" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -97978,6 +98296,13 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section3deck5port)
+"jWA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
 "jXD" = (
 /obj/structure/table/marble,
 /obj/machinery/conveyor/north{
@@ -97986,6 +98311,9 @@
 	name = "Sushi Bar"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/bar)
 "jXE" = (
@@ -98165,7 +98493,7 @@
 /area/eris/medical/chemstor)
 "knK" = (
 /obj/effect/window_lwall_spawn/smartspawn,
-/turf/space,
+/turf/simulated/floor/plating,
 /area/eris/hallway/side/section3port)
 "knY" = (
 /obj/machinery/door/airlock{
@@ -98223,6 +98551,10 @@
 /area/eris/crew_quarters/bar)
 "ksq" = (
 /obj/structure/closet/crate,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
 /turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/bar)
 "ksR" = (
@@ -98241,6 +98573,19 @@
 /obj/machinery/botany/editor,
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/hydroponics)
+"ktp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
+"ktu" = (
+/obj/spawner/pack/tech_loot,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "ktH" = (
 /obj/machinery/light{
 	dir = 8
@@ -98367,6 +98712,10 @@
 	dir = 1
 	},
 /obj/machinery/light,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -22
+	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/hydroponics)
 "kOz" = (
@@ -98418,6 +98767,15 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/grass,
 /area/eris/neotheology/chapel)
+"kUa" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "kUH" = (
 /turf/space,
 /area/eris/maintenance/section3deck5port)
@@ -98431,6 +98789,9 @@
 /area/eris/medical/reception)
 "kWz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/golden,
@@ -98461,6 +98822,20 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
+"lbW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "lcL" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white/brown_platform,
@@ -98522,6 +98897,9 @@
 /obj/structure/closet/secure_closet/freezer/money{
 	name = "Club Manager Deposit"
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/eris/crew_quarters/kitchen)
 "lmo" = (
@@ -98549,6 +98927,9 @@
 /area/eris/command/merchant)
 "lnV" = (
 /obj/structure/closet/chefcloset,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/eris/neotheology/chapel)
 "lob" = (
@@ -98578,6 +98959,10 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/crew_quarters/janitor)
+"lsJ" = (
+/obj/structure/bed/chair/custom/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/maintenance/section3deck4port)
 "lsX" = (
 /obj/machinery/door/airlock/multi_tile/metal{
 	dir = 2
@@ -98614,6 +98999,10 @@
 /obj/machinery/camera/network/command,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section1deck4central)
+"lvr" = (
+/obj/structure/multiz/ladder/up,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "lvM" = (
 /obj/structure/multiz/stairs/active/bottom{
 	dir = 1
@@ -98637,6 +99026,14 @@
 /obj/item/device/radio/intercom,
 /turf/simulated/wall/r_wall,
 /area/eris/crew_quarters/hydroponics/garden)
+"lwE" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "lym" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -98661,6 +99058,12 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/office)
+"lBg" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "lBW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -98700,6 +99103,10 @@
 	},
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/quartermaster/storage)
+"lDj" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "lDO" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/red{
 	dir = 1
@@ -98757,6 +99164,15 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"lIm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "lIn" = (
 /obj/effect/shuttle_landmark/merc/junk,
 /turf/space,
@@ -98765,12 +99181,31 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
+"lKM" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "lLP" = (
 /obj/structure/flora/pottedplant/random,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/kitchen)
 "lMZ" = (
-/obj/machinery/door/airlock,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/kitchen)
 "lNa" = (
@@ -98780,6 +99215,15 @@
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/crew_quarters/bar)
+"lOb" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
 "lOv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -98789,12 +99233,6 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
-"lPH" = (
-/obj/structure/table/bar_special,
-/obj/item/weapon/book/manual/barman_recipes,
-/obj/item/weapon/flame/lighter/zippo,
-/turf/simulated/floor/tiled/steel/bar_flat,
-/area/eris/crew_quarters/bar)
 "lSz" = (
 /obj/spawner/oddities/low_chance,
 /turf/simulated/floor/tiled/techmaint,
@@ -98828,6 +99266,14 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/quartermaster/storage)
+"lVF" = (
+/obj/structure/lattice,
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/space,
+/area/space)
 "lWI" = (
 /obj/machinery/status_display/supply_display,
 /turf/simulated/wall/r_wall,
@@ -98872,11 +99318,25 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/medical/chemistry)
+"mab" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "mbA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/wood,
 /area/eris/neotheology/storage)
+"mdJ" = (
+/turf/simulated/open,
+/area/eris/crew_quarters/bar)
 "mdW" = (
 /obj/machinery/optable/altar,
 /turf/simulated/floor/carpet/bcarpet,
@@ -98972,6 +99432,31 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/quartermaster/office)
+"mme" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
+"mmX" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/monofloor{
+	dir = 4
+	},
+/area/eris/hallway/main/section3)
 "mnj" = (
 /obj/structure/multiz/stairs/active/bottom{
 	dir = 8
@@ -99136,9 +99621,37 @@
 /obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/plating,
 /area/eris/engineering/construction)
+"mCJ" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
+"mDa" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "mGg" = (
 /turf/simulated/floor/tiled/white/techfloor,
 /area/eris/crew_quarters/hydroponics/garden)
+"mJq" = (
+/obj/structure/closet/chefcloset,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
 "mJz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 10
@@ -99247,6 +99760,20 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
+"mYb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "ncx" = (
 /obj/effect/shuttle_landmark/merc/medbay,
 /turf/space,
@@ -99315,6 +99842,10 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
+"nmN" = (
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck2port)
 "nnj" = (
 /obj/structure/closet/wardrobe/color/pink,
 /obj/item/weapon/bikehorn,
@@ -99363,6 +99894,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck3starboard)
+"npS" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4;
+	frequency = 1380;
+	id_tag = "mining_shuttle_pump";
+	power_rating = 20000
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "nqn" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -99455,6 +99995,24 @@
 /obj/structure/sink/kitchen,
 /turf/simulated/wall/r_wall,
 /area/eris/crew_quarters/bar)
+"nwh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "nxl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/danger,
@@ -99492,6 +100050,12 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/hallway/side/section3starboard)
+"nCZ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/eris/crew_quarters/bar)
 "nDl" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -99532,15 +100096,27 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/chemistry)
+"nGH" = (
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/kitchen)
 "nIP" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
-"nJe" = (
-/obj/machinery/computer/arcade/battle,
-/turf/simulated/floor/tiled/steel/bar_dance,
+"nJf" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/bar)
 "nJh" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -99595,6 +100171,12 @@
 	dir = 4
 	},
 /area/eris/hallway/main/section3)
+"nQS" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/plating,
+/area/eris/crew_quarters/bar)
 "nSA" = (
 /obj/structure/table/standard,
 /obj/item/weapon/clipboard,
@@ -99628,6 +100210,15 @@
 /obj/machinery/vending/hydronutrients,
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/hydroponics)
+"nUy" = (
+/obj/structure/table/rack,
+/obj/spawner/booze,
+/obj/spawner/booze,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/barbackroom)
 "nUR" = (
 /obj/structure/reagent_dispensers/cahorsbarrel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -99640,6 +100231,12 @@
 	},
 /turf/simulated/floor/tiled/white/techfloor,
 /area/eris/maintenance/section3deck4port)
+"nWB" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "nWD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -99799,6 +100396,23 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
+"ooT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "osh" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/industrial/warning,
@@ -99832,6 +100446,12 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck4port)
+"ouU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "ovh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -100161,6 +100781,14 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/space)
+"oXS" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/microwave,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/kitchen)
 "oZm" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -100223,6 +100851,14 @@
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
 "pit" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/eris/crew_quarters/kitchen)
 "pjr" = (
@@ -100272,20 +100908,25 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
-"pnR" = (
-/obj/machinery/computer/arcade/orion_trail,
-/turf/simulated/floor/tiled/steel/bar_dance,
-/area/eris/crew_quarters/bar)
 "ppM" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/hydroponics/garden)
+"ppP" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "pqy" = (
 /obj/machinery/door/window/southleft{
 	name = "Bar"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
 "pqG" = (
@@ -100299,6 +100940,11 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck5port)
@@ -100365,6 +101011,10 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/command/merchant)
+"pyX" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/tiled/white/golden,
+/area/eris/crew_quarters/hydroponics/garden)
 "pAN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -100376,6 +101026,10 @@
 	},
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/quartermaster/storage)
+"pAZ" = (
+/obj/spawner/junkfood/rotten,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck4port)
 "pDq" = (
 /obj/structure/sign/faction/neotheology_cross/gold{
 	pixel_y = 32
@@ -100401,6 +101055,21 @@
 /obj/machinery/power/nt_obelisk,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
+"pGr" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "pGz" = (
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -100676,6 +101345,12 @@
 /obj/effect/window_lwall_spawn/plasma/reinforced,
 /turf/simulated/floor/plating,
 /area/eris/rnd/mixing)
+"qcN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "qdk" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/green,
@@ -100700,9 +101375,6 @@
 /obj/structure/multiz/stairs/enter,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3starboard)
-"qdW" = (
-/turf/simulated/wall,
-/area/eris/maintenance/section3deck5port)
 "qet" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment{
@@ -100757,10 +101429,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
 "qkE" = (
 /obj/structure/closet/gmcloset,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/sblucarpet,
 /area/eris/crew_quarters/kitchen)
 "qkR" = (
@@ -100829,6 +101507,13 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
+"qon" = (
+/obj/item/weapon/reagent_containers/bonsai,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
 "qor" = (
 /obj/effect/shuttle_landmark/merc/engieva,
 /turf/space,
@@ -100854,12 +101539,24 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white/golden,
 /area/space)
+"qvy" = (
+/obj/spawner/booze/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/kitchen)
 "qyV" = (
 /obj/structure/bed/chair/custom/bar_special{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/eris/crew_quarters/bar)
+"qzq" = (
+/obj/structure/lattice,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/space,
+/area/space)
 "qzs" = (
 /obj/structure/multiz/stairs/enter/bottom{
 	dir = 8
@@ -100876,6 +101573,19 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
+"qCR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/golden,
+/area/eris/neotheology/storage)
+"qDJ" = (
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "qEW" = (
 /obj/machinery/door/airlock/multi_tile/metal,
 /obj/machinery/door/firedoor,
@@ -100887,6 +101597,12 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_platform,
 /area/eris/quartermaster/storage)
+"qGZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "qHj" = (
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -100953,6 +101669,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/neotheology/chapel)
+"qRk" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/kitchen)
 "qSp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -100966,10 +101688,26 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck3starboard)
+"qTt" = (
+/obj/spawner/scrap/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck4port)
 "qTX" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/surgery)
+"qVj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
 "qWY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -101024,6 +101762,21 @@
 "qZF" = (
 /turf/simulated/floor/hull,
 /area/eris/neotheology/chapelritualroom)
+"rbx" = (
+/obj/machinery/door/airlock,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
 "rcn" = (
 /obj/structure/closet/crate,
 /obj/spawner/pack/tech_loot,
@@ -101071,6 +101824,20 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4central)
+"rhA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/carpet/sblucarpet,
+/area/eris/crew_quarters/kitchen)
 "rhQ" = (
 /obj/machinery/camera/network/engineering{
 	dir = 8
@@ -101193,6 +101960,15 @@
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/crew_quarters/bar)
+"ryy" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/eris/crew_quarters/bar)
 "rzG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -101213,6 +101989,12 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"rAJ" = (
+/obj/structure/table/standard,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/bioreactor)
 "rAZ" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -101366,6 +102148,14 @@
 /obj/structure/ore_box,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/quartermaster/hangarsupply)
+"rQD" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "rSa" = (
 /obj/structure/table/marble,
 /obj/machinery/door/firedoor,
@@ -101375,6 +102165,14 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/quartermaster/hangarsupply)
+"rXx" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "rXZ" = (
 /mob/living/simple_animal/cat/fluff/bones,
 /turf/simulated/floor/carpet/sblucarpet,
@@ -101392,6 +102190,12 @@
 /obj/item/weapon/bedsheet/brown,
 /turf/simulated/floor/carpet/oracarpet,
 /area/eris/command/merchant)
+"sbO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "sbX" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -101500,6 +102304,12 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3starboard)
+"skh" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "skS" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -101545,6 +102355,21 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/engine_room)
+"soy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
+"sps" = (
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -22
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "spV" = (
 /obj/structure/table/reinforced{
 	pixel_x = -5
@@ -101561,6 +102386,17 @@
 "sqp" = (
 /obj/machinery/door/airlock{
 	name = "Kitchen"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/space,
 /area/eris/neotheology/chapel)
@@ -101650,6 +102486,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"svt" = (
+/obj/spawner/gun_parts/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck4port)
 "svZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white/golden,
@@ -101666,6 +102506,10 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"sxk" = (
+/obj/spawner/mob/roaches/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "syd" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -101742,6 +102586,12 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/crew_quarters/janitor)
+"sDu" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/golden,
+/area/eris/crew_quarters/hydroponics/garden)
 "sEh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
@@ -101784,17 +102634,50 @@
 /obj/effect/shuttle_landmark/merc/sec2east,
 /turf/space,
 /area/space)
+"sHc" = (
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/steel,
+/area/eris/quartermaster/hangarsupply)
 "sHL" = (
 /obj/machinery/power/nt_obelisk,
 /turf/simulated/floor/carpet/bcarpet,
 /area/space)
+"sIa" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "sIv" = (
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/neotheology/storage)
+"sIL" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -22
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "sJq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/gaycarpet,
 /area/eris/quartermaster/misc)
+"sJE" = (
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1331;
+	master_tag = "vox_east_control";
+	req_access = list(150)
+	},
+/turf/simulated/wall/r_wall,
+/area/eris/maintenance/section3deck5port)
 "sJL" = (
 /mob/living/carbon/human/monkey,
 /turf/simulated/floor/reinforced,
@@ -101853,8 +102736,15 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"sOB" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/kitchen)
 "sOF" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/kitchen)
 "sOS" = (
@@ -101976,6 +102866,17 @@
 "tgJ" = (
 /turf/simulated/floor/plating/under,
 /area/eris/hallway/side/section3port)
+"tiP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "tjM" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -102050,6 +102951,12 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"trv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/space,
+/area/space)
 "tss" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/table/standard{
@@ -102077,10 +102984,6 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
-"tuM" = (
-/obj/machinery/media/jukebox,
-/turf/simulated/floor/tiled/steel/bar_dance,
-/area/eris/crew_quarters/bar)
 "twR" = (
 /obj/item/modular_computer/console/preset/civilian/professional{
 	dir = 4
@@ -102124,6 +103027,10 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/office)
+"tCv" = (
+/obj/spawner/pack/machine,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/kitchen)
 "tCD" = (
 /obj/structure/mopbucket,
 /obj/item/weapon/mop,
@@ -102203,6 +103110,10 @@
 /obj/structure/railing/grey,
 /turf/simulated/floor/plating,
 /area/space)
+"tLP" = (
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "tMc" = (
 /obj/machinery/camera/network/engineering{
 	dir = 8
@@ -102224,6 +103135,13 @@
 /obj/structure/kitchenspike,
 /turf/simulated/floor/tiled/white/techfloor,
 /area/eris/maintenance/section3deck4port)
+"tOO" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "tPD" = (
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/crew_quarters/hydroponics/garden)
@@ -102435,6 +103353,13 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
+"ulq" = (
+/obj/item/weapon/stool/custom/bar_special,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "ulH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -102483,6 +103408,24 @@
 	},
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/quartermaster/hangarsupply)
+"usG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "utr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -102493,6 +103436,18 @@
 	},
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
+"uul" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/open,
+/area/eris/crew_quarters/bar)
+"uuH" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "uuR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -102509,6 +103464,10 @@
 	},
 /turf/space,
 /area/space)
+"uvQ" = (
+/obj/item/weapon/stool/custom/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/maintenance/section3deck4port)
 "uwQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -102561,6 +103520,10 @@
 "uDV" = (
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/storage)
+"uEg" = (
+/obj/spawner/pack/machine,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/chapel)
 "uEI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -102587,6 +103550,10 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/bcarpet,
+/area/eris/crew_quarters/janitor)
+"uFy" = (
+/obj/spawner/junkfood/rotten,
+/turf/simulated/floor/tiled/techmaint,
 /area/eris/crew_quarters/janitor)
 "uFZ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -102626,6 +103593,10 @@
 "uOr" = (
 /turf/simulated/floor/dirt,
 /area/eris/neotheology/chapel)
+"uOA" = (
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "uPp" = (
 /obj/structure/table/standard,
 /obj/item/weapon/cell/large/high,
@@ -102643,6 +103614,10 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/crew_quarters/hydroponics)
+"uQK" = (
+/obj/spawner/pack/tech_loot,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/bioreactor)
 "uRU" = (
 /obj/structure/multiz/stairs/enter/bottom,
 /obj/machinery/light{
@@ -102671,6 +103646,12 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
+"uWd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
 "uXw" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -102690,6 +103671,10 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"uXW" = (
+/obj/spawner/booze/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "uYg" = (
 /obj/spawner/medical/low_chance,
 /obj/spawner/medical/low_chance,
@@ -102736,6 +103721,24 @@
 	},
 /turf/simulated/open,
 /area/eris/engineering/engine_room)
+"vak" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
+"var" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
+"vbk" = (
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/bioreactor)
 "vdS" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/camera/network/third_section{
@@ -102944,6 +103947,19 @@
 	},
 /turf/simulated/open,
 /area/eris/maintenance/section3deck4port)
+"vxW" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
+"vyB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "vAE" = (
 /turf/simulated/wall/r_wall,
 /area/eris/crew_quarters/clownoffice)
@@ -102994,6 +104010,10 @@
 	},
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/quartermaster/storage)
+"vHS" = (
+/obj/machinery/slotmachine,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/maintenance/section3deck4port)
 "vHX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/catwalk,
@@ -103029,6 +104049,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/quartermaster/hangarsupply)
+"vIt" = (
+/obj/spawner/lowkeyrandom,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "vIB" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
@@ -103086,6 +104110,10 @@
 /obj/machinery/power/nt_obelisk,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
+"vNX" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck3port)
 "vQp" = (
 /obj/structure/catwalk,
 /turf/space,
@@ -103123,6 +104151,34 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/hydroponics/garden)
+"vWq" = (
+/obj/structure/table/bar_special,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 27
+	},
+/obj/machinery/button/remote/airlock{
+	desc = "A remote control switch.";
+	id = "MedbayExam";
+	name = "Examination Door Control";
+	pixel_x = -6;
+	pixel_y = -4
+	},
+/obj/machinery/button/remote/airlock{
+	desc = "A remote control switch.";
+	id = "MedbayCryo2";
+	name = "Medbay Therapy Exit Button";
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/machinery/button/remote/airlock{
+	desc = "A remote control switch.";
+	id = "MedbayPatients";
+	name = "Patients Exit Button";
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "vWU" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -27
@@ -103130,6 +104186,23 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
+"vXK" = (
+/obj/structure/table/marble,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
+"vXR" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/eris/crew_quarters/bar)
 "vYV" = (
 /obj/machinery/vending/billomat,
 /turf/simulated/floor/tiled/steel,
@@ -103200,6 +104273,22 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
+"wcB" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
+"wem" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck4port)
 "wgF" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -103260,6 +104349,13 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
+"wkK" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/device/eftpos,
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "wmw" = (
 /obj/machinery/vending/theomat,
 /turf/simulated/floor/tiled/dark/golden,
@@ -103286,11 +104382,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/quartermaster/hangarsupply)
 "wqI" = (
-/obj/structure/table/bar_special,
-/obj/item/weapon/reagent_containers/food/drinks/shaker,
-/obj/structure/extinguisher_cabinet{
-	pixel_y = 27
-	},
+/obj/machinery/media/jukebox,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
 "wqX" = (
@@ -103398,16 +104490,16 @@
 /obj/item/weapon/implant/core_implant/cruciform,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/chapelritualroom)
-"wDh" = (
-/obj/machinery/slotmachine,
-/turf/simulated/floor/tiled/steel/bar_dance,
-/area/eris/crew_quarters/bar)
 "wDp" = (
 /obj/structure/table/rack,
 /obj/spawner/booze,
 /obj/spawner/booze,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/barbackroom)
+"wDZ" = (
+/obj/landmark/join/start/assistant,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/neotheology/office)
 "wEJ" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -103421,12 +104513,23 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/storage)
 "wFh" = (
 /obj/landmark/join/start/janitor,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/storage)
+"wFL" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/eris/crew_quarters/bar)
 "wGt" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -103439,6 +104542,11 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/maintenance/section3deck5port)
+"wHR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/white,
+/area/eris/neotheology/chapel)
 "wIn" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -103452,6 +104560,11 @@
 	},
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/quartermaster/storage)
+"wKP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "wOW" = (
 /obj/structure/closet/secure_closet/medicine,
 /obj/structure/catwalk,
@@ -103478,6 +104591,12 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/office)
+"wSb" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "wSg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -103495,6 +104614,13 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
+"wUz" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 25
+	},
+/turf/simulated/floor/wood,
+/area/eris/crew_quarters/kitchen)
 "wVh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -103536,13 +104662,6 @@
 /obj/machinery/power/nt_obelisk,
 /turf/simulated/floor/tiled/white/golden,
 /area/space)
-"xbb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/door/airlock/gold,
-/turf/simulated/floor/tiled/white/golden,
-/area/eris/crew_quarters/hydroponics/garden)
 "xdK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -103638,10 +104757,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/crew_quarters/hydroponics/garden)
+"xlp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "xlK" = (
 /obj/machinery/vending/boozeomat,
 /obj/machinery/door/window/southright{
 	name = "Bar Vendor"
+	},
+/obj/structure/window/basic{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
@@ -103666,9 +104792,28 @@
 	},
 /turf/simulated/floor/tiled/white/golden,
 /area/space)
+"xoo" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "xoq" = (
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/engineering/long_range_scanner)
+"xoI" = (
+/obj/spawner/junkfood/rotten,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
+"xpo" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/tiled/steel/monofloor{
+	dir = 4
+	},
+/area/eris/hallway/main/section3)
 "xrI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -103678,11 +104823,20 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
+"xsd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck5port)
 "xsG" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
 /obj/machinery/reagentgrinder/portable,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/cafe,
 /area/eris/crew_quarters/bar)
 "xuw" = (
@@ -103721,7 +104875,8 @@
 /turf/simulated/wall,
 /area/eris/hallway/side/section3starboard)
 "xDo" = (
-/turf/simulated/floor/tiled/steel/bar_light,
+/obj/machinery/computer/arcade/battle,
+/turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/maintenance/section3deck4port)
 "xDp" = (
 /obj/machinery/power/apc{
@@ -103779,6 +104934,23 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/hydroponics/garden)
+"xGB" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
 "xHF" = (
 /obj/machinery/door/airlock/gold,
 /obj/structure/cable/green{
@@ -103795,6 +104967,15 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/office)
+"xIg" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
 "xJx" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -103873,12 +105054,54 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/eris/quartermaster/office)
+"xRM" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/bar_light,
+/area/eris/crew_quarters/bar)
+"xRW" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/wood,
+/area/eris/neotheology/chapel)
+"xSb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "xSf" = (
 /obj/structure/sign/faction/neotheology,
 /turf/simulated/wall/r_wall,
 /area/space)
 "xSo" = (
-/turf/space,
+/obj/structure/table/standard,
+/obj/item/device/lighting/toggleable/lamp,
+/turf/simulated/floor/tiled/techmaint,
 /area/eris/neotheology/bioreactor)
 "xSu" = (
 /obj/machinery/power/apc{
@@ -103943,11 +105166,32 @@
 /obj/spawner/powercell,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/engineering/breakroom)
+"xXf" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "xXg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
+"xXw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/eris/crew_quarters/bar)
 "xXE" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -104001,6 +105245,7 @@
 	dir = 1;
 	pixel_y = -22
 	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/bioreactor)
 "ybL" = (
@@ -104103,6 +105348,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white/golden,
 /area/eris/neotheology/storage)
+"ylr" = (
+/obj/spawner/scrap/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/crew_quarters/hydroponics)
 "ylE" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -116334,8 +117583,8 @@ aaa
 aaa
 aaa
 aaa
-kUH
-kUH
+alg
+alg
 alg
 hzf
 lOv
@@ -116534,10 +117783,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+aae
+qDJ
 alg
-alg
+lvr
 alg
 hxo
 alg
@@ -116736,11 +117985,11 @@ aae
 aaa
 aaa
 aaa
-aaa
-aaa
+aae
+npS
 alg
 apC
-apC
+hSi
 pqG
 alg
 gPt
@@ -116938,10 +118187,10 @@ aae
 aae
 aaa
 aaa
-aaa
-aaa
+izU
+ouU
 iMF
-apC
+xoo
 apC
 pIB
 kbK
@@ -117140,10 +118389,10 @@ acR
 aae
 aaa
 aaa
-aaa
-aaa
-alg
-apC
+aae
+aae
+sJE
+xsd
 apC
 apC
 alg
@@ -117345,8 +118594,8 @@ aaa
 aaa
 aaa
 alg
-apC
-apC
+xsd
+eOg
 apC
 avN
 avN
@@ -117547,7 +118796,7 @@ dLB
 dLB
 aaa
 alg
-apC
+wSb
 apC
 apC
 avN
@@ -117755,7 +119004,7 @@ asn
 avN
 fSo
 tCD
-kWz
+qCR
 rJT
 avN
 awQ
@@ -118153,7 +119402,7 @@ aaa
 aaa
 aaa
 apo
-apC
+lSz
 apC
 apC
 avN
@@ -118357,7 +119606,7 @@ aaa
 apo
 apC
 apC
-apC
+eOg
 apn
 apn
 apn
@@ -118367,9 +119616,9 @@ apn
 alg
 alg
 avN
-avN
+rMl
 swt
-avN
+rMl
 rMl
 awQ
 iyS
@@ -118558,7 +119807,7 @@ aad
 aad
 apo
 apC
-apC
+eOg
 apC
 ntA
 jpL
@@ -119367,7 +120616,7 @@ dLB
 aaa
 alg
 aua
-apC
+uOA
 avN
 bWK
 wks
@@ -120580,13 +121829,13 @@ arB
 arB
 apC
 apC
+uOA
 apC
 apC
-qdW
-vrX
-vrX
-vrX
-vrX
+vbk
+vbk
+uQK
+vbk
 aCn
 hot
 qKP
@@ -120784,11 +122033,11 @@ apC
 apC
 apC
 apC
-qdW
-vrX
-vrX
-vrX
-vrX
+apC
+vbk
+vbk
+huI
+joY
 aCn
 goN
 qKP
@@ -120984,13 +122233,13 @@ apt
 apt
 apC
 apC
+ktu
 apC
 apC
-qdW
-vrX
-vrX
+vbk
+vbk
 xSo
-xSo
+rAJ
 aCn
 fOl
 qKP
@@ -121805,7 +123054,7 @@ ccu
 ccu
 scO
 bts
-bts
+dTJ
 aCn
 stS
 fCp
@@ -121990,9 +123239,9 @@ aqG
 aaa
 aaa
 aaa
-aad
-aqV
-apF
+qzq
+nQS
+hZc
 apF
 apF
 apF
@@ -122007,7 +123256,7 @@ ccw
 aCn
 rzG
 bts
-bts
+dTJ
 aCn
 awR
 bPZ
@@ -122190,9 +123439,9 @@ arS
 ast
 arO
 aaa
-aaa
-aaa
-aad
+bUW
+bXF
+lVF
 anJ
 atu
 aqg
@@ -122392,7 +123641,7 @@ arO
 arO
 arO
 aaa
-aaa
+trv
 apn
 apn
 anJ
@@ -122594,7 +123843,7 @@ arO
 aaa
 aaa
 aaa
-aaa
+trv
 apn
 apS
 asW
@@ -122796,7 +124045,7 @@ dLB
 dLB
 dLB
 dLB
-aad
+azl
 apn
 apS
 asY
@@ -122998,7 +124247,7 @@ dMt
 dMt
 apG
 dLB
-aaa
+trv
 apn
 apS
 atn
@@ -123200,7 +124449,7 @@ asK
 dMt
 axz
 dLB
-aaa
+trv
 apn
 apS
 asW
@@ -123402,7 +124651,7 @@ asL
 asO
 atg
 dLB
-aaa
+trv
 apn
 apn
 apn
@@ -123604,7 +124853,7 @@ apJ
 aqp
 apJ
 apJ
-aaa
+trv
 aaa
 aaa
 apn
@@ -123806,7 +125055,7 @@ asq
 asv
 asB
 apJ
-aaa
+trv
 aaa
 aaa
 apn
@@ -124008,7 +125257,7 @@ amb
 asy
 asP
 apJ
-aaa
+trv
 aaa
 apn
 apn
@@ -124208,9 +125457,9 @@ ary
 ary
 ary
 asz
-amb
-apj
-aaa
+aqt
+fGV
+gIh
 aaa
 apn
 atp
@@ -127857,7 +129106,7 @@ auV
 fVv
 ato
 ato
-fFd
+nqt
 owY
 owY
 owY
@@ -128058,8 +129307,8 @@ awg
 auV
 baH
 bta
-ato
-nqt
+tPR
+nJh
 jLd
 vZi
 fLD
@@ -128258,10 +129507,10 @@ avn
 avF
 awg
 auV
+avx
+apb
 ato
-ato
-tPR
-nJh
+gTF
 owY
 owY
 owY
@@ -128460,9 +129709,9 @@ arQ
 avF
 awg
 auV
-avx
-apb
-bqy
+ato
+ato
+ato
 gTF
 fZV
 eYR
@@ -128864,9 +130113,9 @@ arQ
 avF
 awp
 auV
-apb
-apb
-bqA
+ato
+ato
+ato
 aBI
 jCq
 fGS
@@ -129066,10 +130315,10 @@ avn
 azP
 awq
 auV
-wpo
-lvM
-plN
-rUL
+auV
+apb
+sHc
+aBI
 tjM
 owY
 owY
@@ -129270,8 +130519,8 @@ cgl
 auV
 wpo
 lvM
-ato
-obk
+plN
+rUL
 jCq
 fGS
 fGS
@@ -129470,10 +130719,10 @@ arQ
 avF
 awq
 auV
-auV
-auV
-auV
-xSu
+wpo
+lvM
+ato
+obk
 rEX
 owY
 owY
@@ -129671,11 +130920,11 @@ aaa
 arQ
 avF
 awq
-oWL
-aBM
-nCw
+avn
+avn
+avn
 auV
-fFd
+xSu
 fGS
 fGS
 fGS
@@ -129873,9 +131122,9 @@ aaa
 arQ
 avF
 awq
-atB
+oWL
 aBM
-aBM
+nCw
 auV
 ksR
 fFd
@@ -130075,7 +131324,7 @@ aaa
 avn
 aBs
 awq
-avn
+atB
 aBM
 aBM
 auV
@@ -156136,16 +157385,16 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
 aaa
 aaa
 aaa
@@ -156343,16 +157592,16 @@ aae
 aae
 aae
 aae
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
 aaa
 bqj
 bqD
@@ -156546,15 +157795,15 @@ fKM
 sHL
 aae
 aae
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
+abF
 aaa
 bqj
 bqt
@@ -156754,9 +158003,9 @@ aae
 aae
 aae
 aae
-aaa
-aaa
-aaa
+abF
+abF
+abF
 aaa
 bqj
 bqt
@@ -156940,7 +158189,7 @@ bUG
 bUG
 bWh
 ciS
-bfM
+bUH
 bUG
 bUG
 bUG
@@ -156951,12 +158200,12 @@ rDv
 sSO
 bUG
 bWh
-bWh
+pAZ
 bWh
 kKH
 kKH
 bUG
-aaa
+abF
 aCM
 aCM
 aCM
@@ -157140,7 +158389,7 @@ aaa
 aaa
 aaa
 bUG
-bWg
+bWh
 ciS
 bfM
 bUG
@@ -157155,10 +158404,10 @@ bUG
 bWh
 bWh
 bWh
-bWh
-bWh
+svt
+qTt
 bUG
-aaa
+abF
 aCM
 aCC
 aCC
@@ -157342,7 +158591,7 @@ aaa
 aaa
 aaa
 bUG
-ciS
+bWg
 ciS
 bfM
 bUG
@@ -157354,13 +158603,13 @@ tqI
 ulH
 uuR
 bUG
-bWh
-bWh
-bUG
-bWh
+pAZ
 bWh
 bUG
-aaa
+bWh
+wem
+bUG
+abF
 aCM
 aCO
 aCO
@@ -157562,7 +158811,7 @@ cFv
 cFv
 cyN
 cyN
-aaa
+abF
 aCM
 aDb
 aDb
@@ -157764,7 +159013,7 @@ gom
 cFv
 cBq
 cyN
-aaa
+abF
 aCM
 aNm
 aDb
@@ -157960,9 +159209,9 @@ ccU
 bTQ
 uFo
 cFv
+uFy
 gom
-gom
-gom
+uFy
 cFv
 cBx
 cyN
@@ -158977,8 +160226,8 @@ qhD
 rFm
 hrK
 cyN
-dUG
-dUG
+ylr
+fhi
 cyN
 aaa
 aCM
@@ -159565,9 +160814,9 @@ cIS
 cIS
 aaa
 bzz
-bzz
-xbb
-bzz
+tPD
+sPO
+tPD
 bAZ
 bxH
 bxH
@@ -159787,7 +161036,7 @@ tBq
 cbF
 dUG
 dUG
-dUG
+fhi
 cyN
 abF
 bIT
@@ -159969,7 +161218,7 @@ brD
 cIS
 aaa
 bAZ
-tPD
+sDu
 sPO
 pft
 bAZ
@@ -159988,8 +161237,8 @@ bQq
 bUT
 cbF
 dUG
-dUG
-dUG
+tLP
+ylr
 cyN
 abF
 bFm
@@ -160171,7 +161420,7 @@ cIS
 cIS
 aaa
 bAZ
-tPD
+pyX
 sPO
 tPD
 bAZ
@@ -160189,9 +161438,9 @@ bQq
 bQq
 bUT
 cbF
+tLP
 dUG
-dUG
-dUG
+sxk
 cyN
 aaa
 bFm
@@ -160373,7 +161622,7 @@ aaa
 aaa
 aaa
 bAZ
-tPD
+pyX
 sPO
 tPD
 bAZ
@@ -160392,8 +161641,8 @@ bQq
 qaL
 cbF
 dUG
-dUG
-dUG
+sxk
+tLP
 cyN
 aaa
 bqj
@@ -160575,7 +161824,7 @@ aaa
 abF
 abF
 bAZ
-tPD
+jjP
 sPO
 tPD
 bAZ
@@ -160593,9 +161842,9 @@ bQq
 bQq
 dZB
 cbF
+vIt
 dUG
-dUG
-dUG
+lDj
 cyN
 aaa
 bqj
@@ -160797,7 +162046,7 @@ xVe
 cbF
 dUG
 dUG
-dUG
+idg
 cyN
 aaa
 bqj
@@ -160997,7 +162246,7 @@ cyN
 cyN
 cyN
 cyN
-dUG
+ylr
 dUG
 cyN
 cyN
@@ -161401,8 +162650,8 @@ xwu
 xwu
 xwu
 bUG
-bWh
-bWh
+jun
+qTt
 bUG
 vGB
 aaa
@@ -161805,7 +163054,7 @@ kYq
 kYq
 cPH
 bUG
-bWh
+qTt
 dnb
 lTZ
 vGB
@@ -162201,12 +163450,12 @@ cJT
 bBE
 cil
 cil
-jZW
+aqa
 xDo
-xDo
-xDo
+uvQ
 iNs
-iNs
+lsJ
+hhx
 aqa
 wwB
 eGV
@@ -162403,12 +163652,12 @@ anJ
 anJ
 cil
 cil
-jZW
-xDo
-xDo
-xDo
+aqa
+vHS
+uvQ
 iNs
-iNs
+lsJ
+hhx
 ksj
 cil
 eGV
@@ -162601,14 +163850,14 @@ cxJ
 cBs
 cDc
 anJ
+mBX
+guH
 cil
 cil
-cil
-cil
-jZW
+aqa
 xDo
-xDo
-xDo
+uvQ
+iNs
 iNs
 iNs
 ksj
@@ -162803,14 +164052,14 @@ cyf
 anJ
 anJ
 anJ
+mBX
+mBX
 cil
 cil
 cil
-cil
-jZW
-xDo
-xDo
-xDo
+iNs
+iNs
+iNs
 iNs
 iNs
 itO
@@ -163005,15 +164254,15 @@ czJ
 anJ
 chE
 anJ
+rxk
+rxk
 cil
 cil
 cil
 cil
-cil
-cil
-cil
-cil
-cil
+jZW
+jZW
+jZW
 cil
 ksj
 ksj
@@ -163213,13 +164462,13 @@ cil
 cil
 cil
 cil
+jZW
+jZW
+jZW
+cil
+eGV
+lqu
 mBX
-mBX
-cil
-cil
-cil
-cil
-cil
 anJ
 epe
 anJ
@@ -163415,13 +164664,13 @@ cil
 cil
 cil
 cil
+jZW
+jZW
+jZW
+cil
+eGV
 mBX
 mBX
-cil
-cil
-cil
-cil
-cil
 anJ
 iIJ
 anJ
@@ -163622,8 +164871,8 @@ cil
 cil
 cil
 cil
-cil
-cil
+rxk
+rxk
 anJ
 cil
 anJ
@@ -163821,12 +165070,12 @@ lNa
 cil
 cil
 cil
-eGV
-lqu
-mBX
-wtA
 cil
 cil
+cil
+cil
+cil
+nqY
 cil
 anJ
 aaa
@@ -164023,10 +165272,10 @@ lNa
 cil
 cil
 cil
-eGV
-mBX
-mBX
-wtA
+cil
+iSG
+hZx
+cpt
 cil
 anJ
 anJ
@@ -197539,9 +198788,9 @@ abF
 aaa
 aaa
 duu
-duI
+fYe
 bWe
-dvm
+duI
 duu
 cqn
 cqn
@@ -197551,10 +198800,10 @@ cqn
 cqn
 cmE
 dRP
-duI
-duI
-duI
-duI
+fYe
+vNX
+fpP
+gkR
 duu
 apm
 cAO
@@ -197743,7 +198992,7 @@ aaa
 duu
 bVI
 cht
-dFy
+jpP
 cmE
 nve
 nve
@@ -197756,7 +199005,7 @@ cmE
 dSJ
 duI
 duI
-duI
+gkR
 duu
 apm
 cAO
@@ -198359,10 +199608,10 @@ ctg
 ctg
 gYA
 cmE
-dFy
+uEg
 duI
 duI
-duI
+fpP
 cAh
 apm
 aCM
@@ -198561,7 +199810,7 @@ ctg
 ctg
 con
 cmE
-dFy
+uEg
 duI
 duI
 duI
@@ -198965,10 +200214,10 @@ qPZ
 uAn
 evQ
 cmE
-dFy
+uEg
 dFy
 dUG
-dUG
+lDj
 cyN
 cyN
 cyN
@@ -199167,13 +200416,13 @@ cqa
 cmE
 cmE
 cmE
+uEg
 dFy
-dFy
+fAI
 dUG
 dUG
-dUG
-dUG
-dUG
+cyN
+fhi
 cyN
 cyN
 cyN
@@ -199373,11 +200622,11 @@ cmE
 cmE
 pZA
 dUG
+fAI
 dUG
+uXW
 dUG
-dUG
-dUG
-dUG
+fAI
 cyN
 cwX
 abF
@@ -199576,10 +200825,10 @@ cmE
 dUG
 dUG
 dUG
+cyN
 dUG
-dUG
-dUG
-dUG
+uXW
+xoI
 cyN
 cyN
 cAS
@@ -199775,17 +201024,17 @@ cmE
 dFb
 dFb
 cmE
+uXW
+fAI
 dUG
+cyN
+fAI
 dUG
-dUG
-dUG
-dUG
-dUG
-ygr
+qvy
 xDR
+nGH
 ygr
-ygr
-ygr
+sOB
 aae
 aaa
 abF
@@ -200181,15 +201430,15 @@ cmQ
 cmE
 hFx
 dUH
-dUH
+wHR
 fWh
-tBK
-tBK
+wKP
+lIm
 lLP
 cAS
-ygr
-ygr
-ygr
+eQF
+sOB
+tCv
 aae
 aaa
 abF
@@ -200382,12 +201631,12 @@ cpH
 cpH
 cmE
 qdk
-dUH
+fyv
 lnV
 cmE
-tBK
-tBK
-tQe
+xRW
+mYb
+uWd
 cAS
 xDR
 xDR
@@ -200587,13 +201836,13 @@ cmE
 cmE
 cmE
 cmE
-tBK
-eRt
-tQe
+tOO
+xGB
+qVj
 lMZ
-tQe
-tQe
-tQe
+lMZ
+lMZ
+jne
 cAS
 abF
 abF
@@ -200786,16 +202035,16 @@ cmE
 gsX
 cmE
 qdk
-dUH
-lnV
+lOb
+mJq
 cmE
-tBK
-tBK
+eRt
+jzs
 tQe
-cAS
+wUz
 tQe
 tQe
-tQe
+ffA
 cAS
 abF
 abF
@@ -200988,16 +202237,16 @@ iLB
 cmQ
 cmE
 hFx
-dUH
-dUH
+jxK
+jWA
 fWh
-tBK
-tBK
-tQe
+wKP
+lKM
+qon
 cAS
 cAS
 cAS
-lMZ
+rbx
 cAS
 abF
 cwU
@@ -201199,7 +202448,7 @@ xDR
 cAS
 iFo
 pit
-pit
+rhA
 cAS
 abF
 cwU
@@ -201396,12 +202645,12 @@ lHl
 ksq
 gqw
 hwC
-qft
+xSb
 gXf
 cAS
 eRI
-pit
-pit
+qcN
+hDF
 cAS
 abF
 cwU
@@ -201598,7 +202847,7 @@ qft
 qft
 qft
 qft
-qft
+usG
 sOF
 cAS
 rKy
@@ -201800,8 +203049,8 @@ xsG
 qft
 qft
 vNJ
-qft
-rGy
+ooT
+oXS
 cAS
 cAS
 cAS
@@ -201993,20 +203242,20 @@ gsA
 gJq
 bVU
 wDp
-wDp
+nUy
 mUq
 ctD
 oMR
 anJ
 tpW
-qft
-qft
+qGZ
+vak
 vNJ
-qft
+ooT
 rGy
 oGG
 mnW
-jAi
+kDI
 cAS
 sJQ
 abF
@@ -202198,16 +203447,16 @@ cxA
 cxA
 mUq
 ctD
+nJf
+sIL
 qft
-qft
-qft
-qft
+fOp
 tRs
-vNJ
-qft
+wkK
+ooT
 rOY
 oGG
-suc
+qRk
 jpo
 cAS
 sJQ
@@ -202400,17 +203649,17 @@ owG
 aqa
 aqa
 anJ
-qft
-qft
-qft
-qft
+vxW
+xXw
+xlp
+var
 nlw
 sGd
-qft
+ooT
 cwI
 oGG
 suc
-kDI
+jAi
 cAS
 sJQ
 abF
@@ -202599,20 +203848,20 @@ gsA
 gJq
 anJ
 apF
-apF
+sps
 apF
 knY
-hmZ
 qft
-qft
-qft
-qft
-qft
-qft
+mDa
+wcB
+pGr
+mab
+mab
+nwh
 qft
 knY
 cil
-cil
+nWB
 anJ
 aaa
 abF
@@ -202800,21 +204049,21 @@ knK
 gsA
 gJq
 anJ
-apF
-apF
+xXf
+rXx
 apF
 wUo
 wUo
-wUo
+gaq
 jXD
-rSa
+vXK
 rSa
 rSa
 rSa
 nMH
 nMH
-cil
-cil
+sbO
+sIa
 anJ
 aaa
 cwU
@@ -203002,21 +204251,21 @@ knK
 gsA
 gJq
 anJ
-apF
-apF
-apF
+hJu
+mCJ
+lwE
 pqy
-cil
-cil
+wFL
+iEQ
+ulq
+iqg
 iAi
 iAi
 iAi
-iAi
-iAi
+uuH
 cil
-cil
-cil
-cil
+ivx
+skh
 anJ
 aaa
 cwU
@@ -203204,20 +204453,20 @@ knK
 gsA
 gJq
 anJ
-lPH
+iSH
 apF
 apF
 wuQ
 tMH
+rQD
+lBg
+gYV
 jZW
 jZW
 jZW
 jZW
 jZW
-jZW
-jZW
-jZW
-jZW
+gYV
 jZW
 anJ
 aaa
@@ -203406,20 +204655,20 @@ bsS
 cId
 dJu
 anJ
-iSH
+vWq
 apF
 wgZ
 wuQ
 tMH
-jZW
-jZW
-jZW
-jZW
-jZW
-jZW
-jZW
-jZW
-jZW
+mme
+soy
+xIg
+fwc
+fwc
+fwc
+fwc
+fwc
+vyB
 jZW
 anJ
 aaa
@@ -203613,12 +204862,12 @@ apF
 apF
 wuQ
 tMH
-jZW
-jZW
-cil
-cil
-cil
-cil
+lbW
+lBg
+ryy
+uul
+uul
+uul
 anJ
 uAy
 anJ
@@ -203815,12 +205064,12 @@ apF
 apF
 wuQ
 tMH
-jZW
-jZW
-cil
-cil
-nJe
-iAi
+lbW
+kUa
+vXR
+mdJ
+mdJ
+mdJ
 anJ
 umH
 anJ
@@ -204015,14 +205264,14 @@ anJ
 aqa
 hro
 wuQ
-wuQ
+gUx
 tMH
-jZW
-jZW
-cil
-cil
-pnR
-iAi
+xRM
+ktp
+vXR
+mdJ
+mdJ
+mdJ
 chY
 chY
 chY
@@ -204217,14 +205466,14 @@ anJ
 cjM
 qyV
 qyV
-qyV
 jZW
 jZW
-jZW
-cil
-cil
-wDh
-iAi
+lbW
+lBg
+vXR
+mdJ
+mdJ
+mdJ
 chY
 cpj
 cpj
@@ -204418,15 +205667,15 @@ bWk
 anJ
 cil
 cil
-cil
-cil
+hEv
+ppP
 jZW
-jZW
-jZW
-tuM
-cil
-cil
-cil
+tiP
+lBg
+vXR
+nCZ
+mdJ
+mdJ
 chY
 cpm
 cpm
@@ -204623,8 +205872,8 @@ hjI
 hjI
 xkH
 oDc
-oDc
-oDc
+hzg
+gzE
 iop
 ssl
 hjI
@@ -204826,10 +206075,10 @@ ctj
 ctj
 ctj
 dDo
+nos
 cpo
 cpo
-dYa
-equ
+cpo
 cpo
 ehT
 cpo
@@ -205027,10 +206276,10 @@ csJ
 csJ
 vtt
 csJ
-csJ
-csJ
-csJ
-dYb
+mmX
+xpo
+cAx
+cAx
 cAx
 cAx
 cAx
@@ -205229,10 +206478,10 @@ cpr
 cpr
 nNH
 cpr
-cpr
-cpr
-cpr
 dFW
+cAx
+cAx
+cAx
 cAx
 cAx
 cAx
@@ -209265,10 +210514,10 @@ cgO
 cgO
 cgO
 vhH
+cyb
 kqy
 kzo
 cuY
-cyb
 gFR
 kSk
 mWT
@@ -209467,10 +210716,10 @@ cgO
 uOd
 cyb
 cyb
+cyb
 lmo
 ctS
 mwS
-cyb
 gFR
 pHQ
 xgg
@@ -209669,10 +210918,10 @@ cgO
 fQv
 jLO
 cyb
+cyb
 gxo
 qhz
 osh
-cyb
 gFR
 tme
 jNH
@@ -239159,14 +240408,14 @@ dqI
 ecM
 eae
 ebW
+wDZ
 cDp
+ivc
 cDp
-cDp
-cDp
-cDp
+ivc
 dqB
 dqB
-dqB
+nmN
 dqB
 axB
 axB
@@ -239362,14 +240611,14 @@ ecM
 edk
 ebW
 cDp
+ivc
 cDp
 cDp
 cDp
 cDp
 cDp
-cDp
-cDp
-cDp
+ivc
+ivc
 axB
 axE
 axB
@@ -239563,7 +240812,7 @@ dqI
 ecO
 edx
 hCC
-cDp
+gPo
 cDp
 hCC
 hCC
@@ -239768,7 +241017,7 @@ hCC
 cDp
 cDp
 hCC
-cDp
+gPo
 cDp
 cDp
 hCC
@@ -239967,10 +241216,10 @@ ebW
 ebW
 ebW
 ebW
-cDp
+ivc
 cDp
 hCC
-cDp
+gPo
 cDp
 cDp
 hCC
@@ -240172,12 +241421,12 @@ cDp
 cDp
 cDp
 hCC
-cDp
-cDp
-cDp
+wDZ
+ivc
+ivc
 hCC
-cDp
-cDp
+ivc
+ivc
 axB
 eym
 axB
