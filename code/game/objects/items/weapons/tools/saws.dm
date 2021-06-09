@@ -34,10 +34,10 @@
 	force = WEAPON_FORCE_DANGEROUS * 1.15
 	armor_penetration = ARMOR_PEN_MODERATE
 	matter = list(MATERIAL_STEEL = 5, MATERIAL_PLASTIC = 2)
-	tool_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
+	tool_qualities = list(QUALITY_SAWING = 5, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
 	toggleable = TRUE
 	switched_on_qualities = list(QUALITY_SAWING = 40, QUALITY_CUTTING = 30, QUALITY_WIRE_CUTTING = 30)
-	switched_off_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
+	switched_off_qualities = list(QUALITY_SAWING = 5, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
 	use_power_cost = 0.15
 	suitable_cell = /obj/item/weapon/cell/small
 	spawn_tags = SPAWN_TAG_SURGERY_TOOL
@@ -49,10 +49,10 @@
 	force = WEAPON_FORCE_ROBUST
 	armor_penetration = ARMOR_PEN_DEEP
 	matter = list(MATERIAL_STEEL = 6, MATERIAL_PLASTEEL = 1, MATERIAL_PLASTIC = 2)
-	tool_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
+	tool_qualities = list(QUALITY_SAWING = 5, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
 	toggleable = TRUE
 	switched_on_qualities = list(QUALITY_SAWING = 50, QUALITY_CUTTING = 40, QUALITY_WIRE_CUTTING = 40)
-	switched_off_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
+	switched_off_qualities = list(QUALITY_SAWING = 5, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 5)
 	degradation = 0.7
 	use_power_cost = 0.22
 	max_upgrades = 4
@@ -60,7 +60,7 @@
 	rarity_value = 20
 
 
-// probably should give special procs about turning these on? idk, that's for later 
+// probably should give special procs about turning these on? idk, that's for later
 /obj/item/weapon/tool/saw/chain //tier 4, focusing on damage, fuel variant
 	name = "chainsaw"
 	desc = "You can cut trees, people, walls and zombies with it, just watch out for fuel."
@@ -70,12 +70,12 @@
 	force = WEAPON_FORCE_BRUTAL //Rip and tear!
 	armor_penetration = ARMOR_PEN_SHALLOW
 	matter = list(MATERIAL_STEEL = 3, MATERIAL_PLASTEEL = 10, MATERIAL_PLASTIC = 2)
-	
-	tool_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1) //not the best choice to cut wires
+
+	tool_qualities = list(QUALITY_SAWING = 10, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1) //not the best choice to cut wires
 	toggleable = TRUE
 	switched_on_qualities = list(QUALITY_SAWING = 60, QUALITY_CUTTING = 50, QUALITY_WIRE_CUTTING = 20)
-	switched_off_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1)
-	
+	switched_off_qualities = list(QUALITY_SAWING = 10, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1)
+
 	w_class = ITEM_SIZE_BULKY
 	max_upgrades = 4
 	use_fuel_cost = 0.1
@@ -92,11 +92,11 @@
 	force = WEAPON_FORCE_BRUTAL
 	armor_penetration = ARMOR_PEN_SHALLOW
 	matter = list(MATERIAL_SILVER = 2, MATERIAL_PLASTEEL = 10, MATERIAL_PLASTIC = 3)
-	
-	tool_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1) //not the best choice to cut wires
+
+	tool_qualities = list(QUALITY_SAWING = 10, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1) //not the best choice to cut wires
 	toggleable = TRUE
 	switched_on_qualities = list(QUALITY_SAWING = 60, QUALITY_CUTTING = 50, QUALITY_WIRE_CUTTING = 20)
-	switched_off_qualities = list(QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1)
+	switched_off_qualities = list(QUALITY_SAWING = 10, QUALITY_CUTTING = 5, QUALITY_WIRE_CUTTING = 1)
 
 	w_class = ITEM_SIZE_BULKY
 	max_upgrades = 4
