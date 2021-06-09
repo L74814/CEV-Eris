@@ -44,7 +44,12 @@
 	icon_state = "pneumo_crowbar"
 	item_state = "pneumo_crowbar"
 	matter = list(MATERIAL_STEEL = 6, MATERIAL_PLASTEEL = 1, MATERIAL_PLASTIC = 2)
-	tool_qualities = list(QUALITY_PRYING = 40, QUALITY_DIGGING = 35)
+
+	tool_qualities = list(QUALITY_PRYING = 10, QUALITY_DIGGING = 5)
+	toggleable = TRUE
+	switched_on_qualities = list(QUALITY_PRYING = 40, QUALITY_DIGGING = 35)
+	switched_off_qualities = list(QUALITY_PRYING = 10, QUALITY_DIGGING = 5)
+
 	degradation = 0.7
 	use_power_cost = 0.8
 	max_upgrades = 4
@@ -59,7 +64,10 @@
 	item_state = "hivemind_pneumo_crowbar"
 	origin_tech = list(TECH_ENGINEERING = 4, TECH_MATERIAL = 4, TECH_BIO = 2)
 	matter = list(MATERIAL_STEEL = 8, MATERIAL_PLASTEEL = 1, MATERIAL_PLASTIC = 2, MATERIAL_BIOMATTER = 3)
-	tool_qualities = list(QUALITY_PRYING = 50)
+	tool_qualities = list(QUALITY_PRYING = 20)
+	toggleable = TRUE
+	switched_on_qualities = list(QUALITY_PRYING = 50)
+	switched_off_qualities = list(QUALITY_PRYING = 20)
 	degradation = 0.4
 	use_power_cost = 0.4
 	spawn_blacklisted = TRUE

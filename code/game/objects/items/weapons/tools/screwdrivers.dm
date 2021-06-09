@@ -42,7 +42,10 @@
 	worksound = WORKSOUND_DRIVER_TOOL
 	slot_flags = SLOT_BELT
 	matter = list(MATERIAL_STEEL = 3, MATERIAL_PLASTEEL = 1, MATERIAL_PLASTIC = 2)
-	tool_qualities = list(QUALITY_SCREW_DRIVING = 50, QUALITY_BOLT_TURNING = 50, QUALITY_DRILLING = 20)
+	tool_qualities = list(QUALITY_BOLT_TURNING = 50)
+	toggleable = TRUE
+	switched_on_qualities = list(QUALITY_SCREW_DRIVING = 50, QUALITY_DRILLING = 20)
+	switched_off_qualities = list(QUALITY_BOLT_TURNING = 50)
 	degradation = 0.7
 	use_power_cost = 0.24
 	suitable_cell = /obj/item/weapon/cell/small
@@ -65,7 +68,10 @@
 	desc = "A One Star combi driver. Does better than the standard combi drivers on the market, but has less slots for tool mods."
 	icon_state = "one_star_combidriver"
 	matter = list(MATERIAL_STEEL = 4, MATERIAL_PLATINUM = 2)
-	tool_qualities = list(QUALITY_SCREW_DRIVING = 60, QUALITY_BOLT_TURNING = 60, QUALITY_DRILLING = 25)
+	tool_qualities = list(QUALITY_BOLT_TURNING = 60)
+	toggleable = TRUE
+	switched_on_qualities = list(QUALITY_SCREW_DRIVING = 60, QUALITY_DRILLING = 25)
+	switched_off_qualities = list(QUALITY_BOLT_TURNING = 60)
 	origin_tech = list(TECH_ENGINEERING = 3, TECH_MATERIAL = 2)
 	degradation = 0.6
 	workspeed = 1.7
